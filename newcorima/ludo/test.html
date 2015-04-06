@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language="javascript" src="../../Templates/corimadiv/js/corima.js"></script>
+<link href="../../Templates/corimadiv/css/main.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div align="center">
+  <p>Este es&nbsp;un sencillo problema de chocolate.&nbsp; Te tomar&aacute;&nbsp;menos de UN minuto realizarlo.
+    <input type="button" name="button" id="button" value="Button" onclick="asg_capa_mchoc()"/>
+    <br />
+  </p>
+  </div>
+<div id="ch1" class="mchoc">
+<p>1.- Primero, toma el n&uacute;mero de cuantas veces a la semana, quisieras comer chocolate. M&aacute;s de 1 y menos de 10. </p>
+<p>
+  <select name="veces" id="veces">
+    <option value="1">una</option>
+    <option value="2">dos</option>
+    <option value="3">tres</option>
+    <option value="4">cuatro</option>
+    <option value="5">cinco</option>
+    <option value="6">seis</option>
+    <option value="7">siete</option>
+    <option value="8">ocho</option>
+    <option value="9">nueve</option>
+    <option value="0" selected="selected"></option>
+  </select>
+</p>
+<p>
+<input name="bt1" type="button" id="bt1" value="siguiente" />
+</p>
+</div>
+
+<div class="mchoc" id="ch2">
+<p>2.- Multiplica &eacute;ste n&uacute;mero (o sea las veces que quisiste comer chocolate) por 2. </p>
+<h2> 2 x <div class="numero" id="numero1">0</div>
+=<div class="numero" id="total1">0</div>
+</h2>
+<p>
+<input name="bt2" type="button" id="bt2" value="siguiente" />
+</p>
+</div>
+  <div class="mchoc" id="ch3">
+    <p>3.- A&ntilde;ades o sumas m&aacute;s&nbsp;5 (por el domingo). </p>
+<h2> 5 + 
+  <div class="numero" id="numero2">0</div> 
+  = 
+  <div class="numero" id="total2">0</div></h2>
+  <p>
+    <input name="bt3" type="button" id="bt3" value="siguiente" />
+  </div>
+  <div class="mchoc" id="ch4"  >
+    <p>4.- Luego multiplicarlo por 50. si lo deseas haz el calculo en la calculadora (ji ji ji ji). </p>
+<h2> 50 x 
+  <div class="numero" id="numero3">0</div>= <div class="numero" id="total3">0</div></h2>
+<p>
+        <input name="bt4" type="button" id="bt4" value="siguiente"/>
+      </p>
+  </div>
+<div class="mchoc" id="ch5"  >
+<p>5.- Ya ha pasado tu cumplea&ntilde;os &eacute;ste a&ntilde;o
+  <br />
+  sumale
+  <select name="sino" id="sino">
+    <option value="1">si</option>
+    <option value="0">no</option>
+    <option value="0" selected="selected"></option>
+  </select>
+</p>
+<h2>
+  <div class="numero" id="anno">0</div> 
+   + 
+    <div class="numero" id="numero4">0</div> 
+    =
+    <div class="numero" id="total4">0</div>
+  <br />
+  <input name="bt5" type="button" id="bt5" value="siguiente"/>
+</h2>
+</div>
+  <div class="mchoc" id="ch6">
+    <p>6.- Ahora sustraer las 4 cifras del a&ntilde;o de tu nacimiento... (restas). Tendr&aacute;s un n&uacute;mero de tres cifras.</p>
+<h2><div class="numero" id="numero5">0 </div> - 
+<input name="annoCumple" type="text" id="annoCumple" value="coloca aqui el a&ntilde;o" />
+= 
+<div class="numero" id="total5">0</div></h2>
+<br />
+</p>
+    <p align="center">El primer d&iacute;gito es el primer n&uacute;mero&nbsp;que escogiste. </p>
+      <p align="center">Los dos n&uacute;meros siguientes son: </p>
+      <p align="center">TU EDAD. </p>
+    <p align="center">Que tengas un lindo d&iacute;a. </p>
+  </div>
+<script language="javascript" type="text/javascript">
+	//asg_capa_mchoc();
+</script>
+
+</body>
+</html>
